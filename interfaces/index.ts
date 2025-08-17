@@ -33,3 +33,11 @@ export interface PillProps {
   label: string;
   onClick?: () => void;
 }
+
+export interface BookingDetails {
+  propertyName: string;
+  price: number;
+  bookingFee: number;
+  totalNights: number;
+  startDate: string;
+}
